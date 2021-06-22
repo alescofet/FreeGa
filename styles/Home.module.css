@@ -6,17 +6,26 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: black;
   
 }
 
 .main {
+  overflow-y: scroll;
+  height: 70vh;
   padding: 5rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
+
+.header{
+  font-size: 5vw;
+  color: white;
+}
+
 
 .footer {
   width: 100%;
@@ -121,17 +130,21 @@
   }
 }
 
-.fade {
-  position: relative;
-  height: 4vh; /* exactly three lines */
+.fade{
+  height: 22vh;
+  overflow-y: hidden;
 }
-.fade:after {
-  content: "";
-  text-align: right;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 70%;
-  height: 1.2em;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+
+.fade:before {
+  content:'';
+  width:100%;
+  height:30vh; 
+  position:absolute;
+  left:0;
+  top:9vh;
+  background:linear-gradient(transparent 150px, white);
+}
+
+.cardImg{
+  height: 17vh;
 }
