@@ -6,6 +6,7 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Card,Button } from 'react-bootstrap';
 
+
 let gamesMap
 
 
@@ -58,7 +59,7 @@ return (
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={styles.header}>
-       <Image src="/../public/logoFreeGa.png" alt="Icon" width="60px" height="70px"/> FreeGA  
+       <div className={styles.logo}></div> FreeGA  
       </header>
       <main className={styles.main}>
         <div className="container">

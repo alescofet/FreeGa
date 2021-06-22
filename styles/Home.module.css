@@ -37,6 +37,7 @@
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
+    align-items: center;
   } 
 }
 
@@ -52,6 +53,7 @@
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
+    align-items: center;
   }
 }
 
@@ -182,4 +184,11 @@
 
 .worth{
   text-decoration: line-through;
+}
+.logo{
+  background-image: url('../public/logoFreeGa.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 60px;
+  height:70px;
 }
