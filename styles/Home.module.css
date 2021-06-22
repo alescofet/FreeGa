@@ -21,6 +21,10 @@
   align-items: center;
 }
 
+.main::-webkit-scrollbar {
+  display: none;
+}
+
 @media (min-width:851px){
   .header{
     text-align: center;
